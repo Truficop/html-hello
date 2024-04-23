@@ -1,0 +1,64 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+body {
+    background-image: url(Neutral\ Dog\ Toys\ and\ Treats.jpg);
+    margin: 0;
+}
+.body {
+    padding: 1px;
+    margin: 0 auto;
+    width: 600px;
+    background: rgb(235, 224, 162);
+}
+.header {
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    background: white;
+    display: flex;
+}
+.header h1 {
+    margin: 19px;
+    text-align: left;
+    width: 600px;
+}
+.post {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: white;
+    width: 95%;
+    left: 15px;
+    position: relative;
+}
+.post-header {
+    display: flex;
+}
+.post-header img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    object-fit: cover;
+    object-position: 65%;
+}
+.post-header span {
+	padding: 15px;
+    width: 60px;
+    text-align: center;
+}
+.post-header h1 {
+    width: 100%;
+	margin: 0;
+	padding: 12px;
+    font-size: 20px;
+}
+.post-body img{
+    width: 100%;
+}
+.post-footer p{
+    margin: auto;
+    padding: 20px;
+}
